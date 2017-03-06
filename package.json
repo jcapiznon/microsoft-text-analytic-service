@@ -1,0 +1,31 @@
+{
+  "name": "microsoft-text-analytics",
+  "description": "Microsft Text Analytic",
+  "version": "1.0.0",
+  "author": "Reekoh, Inc.",
+  "main": "app.js",
+  "license": "GPL-3.0",
+  "scripts": {
+    "test": "gulp lint"
+  },
+  "dependencies": {
+    "reekoh": "^1.0.2",
+    "lodash.get": "^4.4.2",
+    "lodash.isempty": "^4.4.0",
+    "lodash.isnan": "^3.0.2",
+    "lodash.isplainobject": "^4.0.6",
+    "request": "^2.76.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-cli": "^1.2.1",
+    "gulp-jshint": "^2.0.1",
+    "gulp-json-lint": "^0.1.0",
+    "gulp-mocha": "^2.2.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-standard": "^8.0.4",
+    "jshint": "^2.9.4",
+    "mocha": "^2.5.3",
+    "should": "^9.0.2"
+  }
+}

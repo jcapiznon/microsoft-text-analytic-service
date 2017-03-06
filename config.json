@@ -1,0 +1,20 @@
+{
+	"apiKey": {
+		"label": "API Key",
+		"type": "Password",
+		"required": true,
+		"help": "Microsoft Text Analytics API key."
+	},
+  "operationType": {
+    "label": "Operation",
+    "type": "String",
+    "enum": [
+      "Detect Language",
+      "Detect Topics",
+      "Key Phrases",
+      "Sentiment"
+    ],
+    "required": true,
+    "help": "The operation to perform with the input."
+  }
+}
